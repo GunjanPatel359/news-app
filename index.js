@@ -14,7 +14,7 @@ const fetchNews = async (pages) => {
         <div class="card-body">
           <h5 class="card-title">${e[i].title}</h5>
           <p class="card-text">${e[i].description}</p>
-          <a target="_blank" href="${e[i].url}" class="btn btn-primary">Go somewhere</a>
+          <a target="_blank" href="${e[i].url}" class="btn btn-primary">Read more</a>
         </div>
       </div>`
       limit++;
